@@ -1,0 +1,58 @@
+USE project_schema;
+
+SELECT 
+    AVG(grade_percent) 
+FROM
+    grades
+WHERE
+    professors = 'Gardner';
+    
+    SELECT 
+    AVG(grade_percent) 
+FROM
+    grades
+WHERE
+    professors = 'Spittka';
+    
+   SELECT 
+    AVG(grade_percent) 
+FROM
+    grades
+WHERE
+    professors = 'Kreir'; 
+    
+    SELECT MAX(grade_percent)
+FROM grades
+WHERE 
+student_name = 'Renee';
+
+    SELECT MAX(grade_percent)
+FROM grades
+WHERE 
+student_name = 'Matt';
+
+    SELECT MAX(grade_percent)
+FROM grades
+WHERE 
+student_name = 'Zane';
+
+    SELECT MAX(grade_percent)
+FROM grades
+WHERE 
+student_name = 'Marsha';
+
+    SELECT MAX(grade_percent)
+FROM grades
+WHERE 
+student_name = 'Brentt';
+
+    SELECT MAX(grade_percent)
+FROM grades
+WHERE 
+student_name = 'Cora';
+
+SELECT `course_name` FROM `course` GROUP BY `course_name`;
+
+SELECT course_id, COUNT(*)
+FROM tables
+GROUP BY course_id;
