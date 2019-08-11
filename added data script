@@ -1,0 +1,46 @@
+USE project_schema;
+  
+INSERT INTO students(student_name)
+VALUES ("Renee");
+
+INSERT INTO students(student_name)
+VALUES ("Matt");
+
+INSERT INTO students(student_name)
+VALUES ("Zane");
+
+INSERT INTO students(student_name)
+VALUES ("Marsha");
+
+INSERT INTO students(student_name)
+VALUES ("Brentt");
+
+INSERT INTO students(student_name)
+VALUES ("Cora");
+
+INSERT INTO professors(professors_name)
+VALUES ("Gardner");
+
+INSERT INTO professors(professors_name)
+VALUES ("Spittka");
+
+INSERT INTO professors(professors_name)
+VALUES ("Krier");
+
+INSERT INTO course(course_name)
+VALUES ("Math");
+
+INSERT INTO course(course_name)
+VALUES ("English");
+
+INSERT INTO course(course_name)
+VALUES ("Music");
+
+INSERT INTO course(course_name)
+VALUES ("History");
+
+INSERT INTO grades(grade_percent)
+VALUES ("95");
+
+INSERT INTO grades(grade_percent)
+VALUES ("97");
